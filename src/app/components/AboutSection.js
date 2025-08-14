@@ -8,7 +8,7 @@ export default function AboutSection() {
       <div className={styles.AboutContainer}>
         <div className={styles.InfoContainer}>
           <p>
-            I'm a developer with an interest in creating intuitive, accessible and responsive user interfaces. My favourite work involves
+            I&apos;m a developer with an interest in creating intuitive, accessible and responsive user interfaces. My favourite work involves
             creating interfaces from designs that enhance user experience and deliver pleasant interactions that are consistent, robust and performant.
             <br />
             <br />
