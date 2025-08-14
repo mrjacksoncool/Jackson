@@ -28,13 +28,13 @@ export default function HeroSection() {
             <h2>Front End Developer</h2>
           </div>
           <div className={styles.Linkscontainer}>
-            <a href="https://twitter.com/yourusername" className={`${styles.sociallink} ${styles.twitter}`} target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/mojeladev" className={`${styles.sociallink} ${styles.twitter}`} target="_blank" rel="noopener noreferrer">
               <FaTwitter />
             </a>
-            <a href="https://instagram.com/yourusername" className={`${styles.sociallink} ${styles.instagram}`} target="_blank" rel="noopener noreferrer">
+            <a href="https://instagram.com/mojelaratsita" className={`${styles.sociallink} ${styles.instagram}`} target="_blank" rel="noopener noreferrer">
               <FaInstagram />
             </a>
-            <a href="https://linkedin.com/in/yourusername" className={`${styles.sociallink} ${styles.linkedin}`} target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/mojelaratsita" className={`${styles.sociallink} ${styles.linkedin}`} target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn />
             </a>
             <a href="https://github.com/mrjacksoncool/mrjacksoncool/" className={`${styles.sociallink} ${styles.github}`} target="_blank" rel="noopener noreferrer">
