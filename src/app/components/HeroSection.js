@@ -37,7 +37,7 @@ export default function HeroSection() {
             <a href="https://linkedin.com/in/yourusername" className={`${styles.sociallink} ${styles.linkedin}`} target="_blank" rel="noopener noreferrer">
               <FaLinkedinIn />
             </a>
-            <a href="https://github.com/yourusername" className={`${styles.sociallink} ${styles.github}`} target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/mrjacksoncool/mrjacksoncool/" className={`${styles.sociallink} ${styles.github}`} target="_blank" rel="noopener noreferrer">
               <FaGithub />
             </a >
           </div >

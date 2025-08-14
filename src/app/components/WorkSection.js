@@ -33,7 +33,7 @@ export default function WorkSection() {
           </div>
         </a>
         <span className={styles.resume}>
-          <a href="/public/resume.pdf" download={"Mojela's resume.pdf"} className={styles.resumeLink}>
+          <a href="/resume.pdf" download={"Mojela's resume.pdf"} className={styles.resumeLink}>
             Download Resume <MdArrowOutward />
           </a>
         </span>

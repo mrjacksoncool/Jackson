@@ -8,13 +8,16 @@ export default function AboutSection() {
       <div className={styles.AboutContainer}>
         <div className={styles.InfoContainer}>
           <p>
-            I am a developer with a keen interest in creating
-            accesible, intuitive and responsive web applications. My journey in web development
-            has equipped me with the skills to build user-friendly interfaces and
-            optimize performance.Lorem ipsum dolor<a href="" target="_blank" rel="noopener noreferrer" className={styles.Linkto}>Le wagon</a> sit amet consectetur adipiscing elit. Consec
-            tetur adipiscing elit quisque faucibus sapien vitae. Ex sapien vitae pellentesque sem p
-            lacerat in id. Placerat in id cursus mi pretium tellus duis. Pretium tellus duis convallis
-            tempus leo eu aenean.
+            I'm a developer with an interest in creating intuitive, accessible and responsive user interfaces. My favourite work involves
+            creating interfaces from designs that enhance user experience and deliver pleasant interactions that are consistent, robust and performant.
+            <br />
+            <br />
+            I currently spend my time constantly learning and mastering modern frameworks and libraries like React, Next.js, and Tailwind CSS.
+            As a <a href="https://www.lewagon.com/" target="_blank" rel="noopener noreferrer" className={styles.Linkto}>Wagoner</a>, I have a solid foundation in web development and a great appreciation for collaborative work.
+            I am constantly seeking to improve my skills and have earned certifications that reflect my dedication to the craft, from <a href="https://freecodecamp.org/certification/mojela03/responsive-web-design" target="_blank" rel="noopener noreferrer" className={styles.Linkto}>Freecodecamp</a> and <a href="https://www.hackerrank.com/certificates/3d41105e3b69" target="_blank" rel="noopener noreferrer" className={styles.Linkto}>HackerRank</a>.
+            <br />
+            <br />
+            In my free time, I enjoy exploring new coffee shops, and reading about the latest trends in tech on <a href="https://daily.dev/" target="_blank" rel="noopener noreferrer" className={styles.Linkto}>Daily.dev</a>.
           </p>
         </div>
       </div>

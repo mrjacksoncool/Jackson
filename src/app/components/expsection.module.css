@@ -53,11 +53,17 @@
 
 .tag {
   font-size: 0.75rem;
-  background-color: #dbeafe;
-  color: #1d4ed8;
+  background: rgba(255, 255, 255, 0.14);
+  color: rgb(217, 226, 236);
   padding: 4px 12px;
   border-radius: 9999px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow:
+    0 20px 40px rgba(0, 74, 173, 0.3),
+    0 10px 20px rgba(203, 108, 230, 0.2),
+    0 0 30px rgba(0, 74, 173, 0.1);
+  backdrop-filter: blur(19.8px);
+  -webkit-backdrop-filter: blur(6.1px);
+
 }
 
 .CardTitle {
@@ -125,4 +131,20 @@
   /* background: linear-gradient(90deg, #004aad, #cb6ce6); */
 }
 
+.swipecontainer {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 1rem;
+  padding: 1rem;
+}
 
+.swipecard {
+  flex: 0 0 80%;
+  scroll-snap-align: start;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}

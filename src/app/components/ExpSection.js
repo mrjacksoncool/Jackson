@@ -1,12 +1,25 @@
 "use client";
 
+import React from "react";
 import Image from "next/image";
 import styles from "./expsection.module.css";
 
 export default function ExpSection() {
   const tags = ['UI', 'Onboarding', 'UX', 'React', 'Next.js'];
+  // const cards = [{ id: 1, title: "Card 1", content: "This is card 1" },
+  // { id: 2, title: "Card 2", content: "This is card 2" },
+  // { id: 3, title: "Card 3", content: "This is card 3" },
+  // ]
   return (
     <>
+    {/* <div className={styles.swipecontainer}>
+      {cards.map((card => (
+        <div key={card.id} className={styles.swipecard}>
+          <h2>{card.title}</h2>
+          <p>{card.content}</p>
+        </div>
+      )))}
+    </div> */}
       <div className={styles.expcontainer}>
         <h1>
           Experience
