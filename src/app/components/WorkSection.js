@@ -5,6 +5,9 @@ import { MdArrowOutward } from "react-icons/md";
 
 
 export default function WorkSection() {
+  function Not() {
+    alert("Downloading my resume?")
+  }
   return (
     <>
       <div className={styles.WorkContainer}>
@@ -33,7 +36,7 @@ export default function WorkSection() {
           </div>
         </a>
         <span className={styles.resume}>
-          <a href="/resume.pdf" download={"Mojela's resume.pdf"} className={styles.resumeLink}>
+          <a href="/resume.pdf" download={"Mojela's resume.pdf"} className={styles.resumeLink} onClick={() => Not()}>
             Download Resume <MdArrowOutward />
           </a>
         </span>

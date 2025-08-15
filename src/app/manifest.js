@@ -4,7 +4,7 @@ export default function manifest() {
     short_name: 'Mojela',
     description: 'A Progressive Web App built by Mojela',
     start_url: '/',
-    display: 'standalone',
+    display: 'fullscreen',
     background_color: '#010101',
     theme_color: '#010101',
     icons: [
