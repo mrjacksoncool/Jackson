@@ -6,21 +6,9 @@ import styles from "./expsection.module.css";
 
 export default function ExpSection() {
   const tags = ['UI', 'Onboarding', 'UX', 'React', 'Next.js'];
-  // const cards = [{ id: 1, title: "Card 1", content: "This is card 1" },
-  // { id: 2, title: "Card 2", content: "This is card 2" },
-  // { id: 3, title: "Card 3", content: "This is card 3" },
-  // ]
   return (
     <>
-    {/* <div className={styles.swipecontainer}>
-      {cards.map((card => (
-        <div key={card.id} className={styles.swipecard}>
-          <h2>{card.title}</h2>
-          <p>{card.content}</p>
-        </div>
-      )))}
-    </div> */}
-      <div className={styles.expcontainer}>
+      {/* <div className={styles.expcontainer}>
         <h1>
           Experience
         </h1>
@@ -55,6 +43,125 @@ export default function ExpSection() {
             </div>
           </div>
         </a>
+      </div> */}
+      <div className={styles.expcontainer}>
+        <h1>
+          Projects
+        </h1>
+        <div className={styles.slider}>
+
+          {/* <a href="#slide-1">1</a>
+          <a href="#slide-2">2</a>
+          <a href="#slide-3">3</a>
+          <a href="#slide-4">4</a>
+          <a href="#slide-5">5</a> */}
+
+          <div className={styles.slides}>
+            <div id="slide-1" className={styles.slide1}>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div className={styles.slideContainer}>
+                  <div className={styles.slideConLeft}>
+                    <Image
+                      priority={true}
+                      src="/images/show.png"
+                      width={300}
+                      height={150}
+                      alt="Screenshot of front page"
+                      className={styles.slideImage}
+                    />
+                    <div className={styles.slideTitle}>
+                      Jab Food ls
+                    </div>
+                  </div>
+                  <div className={styles.slideConRight}>
+                    Fast food web app in Lesotho Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing
+                  </div>
+                  <div className={styles.slideConTags}>
+                    {tags.map(tag => (
+                      <div key={tag} className={styles.tag}>
+                        {tag}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div id="slide-2" className={styles.slide2}>
+              <a href="https://github.com/JesseCesar/DIOAN-WEBSITE" target="_blank" rel="noopener noreferrer">
+                <div className={styles.slideContainer}>
+                  <div className={styles.slideConLeft}>
+                    <Image
+                      priority={true}
+                      src="/images/show-2.png"
+                      width={300}
+                      height={150}
+                      alt="Screenshot of front page"
+                      className={styles.slideImage}
+                    />
+                    <div className={styles.slideTitle}>
+                      DIOAN
+                    </div>
+                  </div>
+                  <div className={styles.slideConRight}>
+                    Description Lorem ipsum dolor sit amet consectetur adipiscing elit. Consectetur adipiscing
+                  </div>
+                  <div className={styles.slideConTags}>
+                    {tags.map(tag => (
+                      <div key={tag} className={styles.tag}>
+                        {tag}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div id="slide-3" className={styles.slide3}>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div className={styles.slideContainer}>
+                  <div className={styles.slideConLeft}>
+                    Title
+                  </div>
+                  <div className={styles.slideConRight}>
+                    Description
+                  </div>
+                  <div className={styles.slideConTags}>
+                    Tags
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div id="slide-4" className={styles.slide4}>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div className={styles.slideContainer}>
+                  <div className={styles.slideConLeft}>
+                    Title
+                  </div>
+                  <div className={styles.slideConRight}>
+                    Description
+                  </div>
+                  <div className={styles.slideConTags}>
+                    Tags
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div id="slide-5" className={styles.slide5}>
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                <div className={styles.slideContainer}>
+                  <div className={styles.slideConLeft}>
+                    Title
+                  </div>
+                  <div className={styles.slideConRight}>
+                    Description
+                  </div>
+                  <div className={styles.slideConTags}>
+                    Tags
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )

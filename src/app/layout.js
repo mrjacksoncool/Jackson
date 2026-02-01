@@ -8,8 +8,8 @@ const gelasio = Gelasio({
 
 export const metadata = {
   title: "Portfolio V.1",
-  description: "Mojela's Portfolio V.1",
-  keywords: ["Portfolio", "Mojela", "Frontend", "Developer"],
+  description: "Mojela Ratsita",
+  keywords: ["Portfolio", "Mojela", "Frontend", "Developer", "Mojela Ratsita is a Front-End developer based in Cape Town", "mojela online"],
   authors: [{ name: "Mojela" }, { name: "Mojela", url: "https://mojela.online" }],
   creator: "Mojela",
   icons: {

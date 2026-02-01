@@ -2,7 +2,7 @@ export default function manifest() {
   return {
     name: 'Portfolio V.1',
     short_name: 'Mojela',
-    description: 'A Progressive Web App built by Mojela',
+    description: 'A Progressive Web App made by Mojela',
     start_url: '/',
     display: 'fullscreen',
     background_color: '#010101',

@@ -7,11 +7,8 @@ export default function Footer() {
     <>
       <div className={styles.footerContainer}>
         <p>
-          Designed and coded in Visula Studio Code by your favourite wannabe comedian, built with Next.js and CSS and deployed on Vercel.
+          Designed and coded in Visual Studio Code by your favourite wannabe comedian, built with Next.js and CSS and deployed on Vercel.
         </p>
-        {/* <div>
-          animation
-        </div> */}
       </div>
     </>
   )
