@@ -1,5 +1,7 @@
 import { Gelasio } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const gelasio = Gelasio({
   variable: "--font-gelasio",
@@ -24,6 +26,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={gelasio.className}>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
